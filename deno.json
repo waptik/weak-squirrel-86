@@ -1,0 +1,8 @@
+{
+    "tasks": {
+        "main": "deno run --allow-net --unstable-kv --watch main.ts"
+    },
+    "imports": {
+        "@olli/kvdex": "jsr:@olli/kvdex@^0.35.2"
+    }
+}
