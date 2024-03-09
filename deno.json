@@ -3,6 +3,7 @@
         "main": "deno run --allow-net --unstable-kv --watch main.ts"
     },
     "imports": {
-        "@olli/kvdex": "jsr:@olli/kvdex@^0.35.2"
+        "@olli/kvdex": "jsr:@olli/kvdex@^0.35.2",
+        "@olli/kvdex/ext/zod": "jsr:@olli/kvdex@^0.35.2/ext/zod"
     }
 }
